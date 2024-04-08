@@ -11,7 +11,7 @@
 ## 快速上手（Windows）
 
 1. 如果没有安装 Python，请[在此](https://www.python.org/downloads/)下载安装 Python，并将 Python 添加至`PATH`环境变量中
-2. [下载](null)程序包并解压于工作文件夹中
+2. [下载](https://github.com/Dinosaur-MC/NCST_py/releases/latest)程序包并解压于工作文件夹中
 3. 在程序目录下找到名单配置文件`config.txt`并打开，按以下规则填写内容：
    - 第一行内容为`格式文本`（formatter），在此行填写标准格式，并以美元符号`$`括住一个标识符来表示一个变量，标识符中不能有空格，如`$name$`
      - 注意：格式文本的匹配规则包含文件扩展名，如果想要匹配任意扩展名，可以使用扩展名通配符`.*`
