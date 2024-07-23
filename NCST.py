@@ -126,6 +126,7 @@ def main():
                 os.rename(os.path.join(dir_path, x[0]), os.path.join(dir_path, x[1]))
                 targets.remove(x[2])
                 unmatched.remove(x[0])
+                matched.append(x[1])
                 print("\t" + x[0] + "\t->\t" + x[1])
             print("Done!")
         else:
